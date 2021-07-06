@@ -1,0 +1,15 @@
+.chart {
+    position: absolute;
+    left: 43px;
+    right: 0px;
+    top: 130px;
+    bottom: 0px;
+
+    background: #FFFFFF;
+    /* Components / Border color */
+
+    
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

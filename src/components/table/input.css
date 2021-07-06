@@ -1,0 +1,36 @@
+.input-clc {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 55px;
+    top: 115px;
+    padding-left: 2.8%;
+  
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+  
+   }
+   
+  .input-clc::placeholder {
+    position: absolute;
+    width: 47px;
+    height: 20px;
+    left: 44px;
+    top: 10px;
+  
+    opacity: 0.5;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .ic-fa{
+    background: url("Icon.png") no-repeat #F9FAFB;;
+    background-position: 8%;
+  }
+  
+  

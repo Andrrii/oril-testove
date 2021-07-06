@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+import React from "react"
+import { DetailsPage, ListPage } from "./components/pages";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  
+} from "react-router-dom";
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export default class App extends React.Component  {
+  state  = {
+    onPersonSelected : null
+  }
+
+  onPersonSelected = id => {
+    this.setState({
+      onPersonSelected:id
+    })
+  }
+  
+  render() {
+    return (
+      
+        <div className="App">
+          <Router>
+            <Switch>
+                <Route path = '/' exact render = {() => (<ListPage onPersonSelected = {this.onPersonSelected} />)}/>
+                <Route path = '/detail/:id?' exact component = {() => (<DetailsPage personId = {this.state.onPersonSelected} />)}/>
+            </Switch>
+          </Router>
+          
+        </div>
+    );
+   }
 }
 
-export default App;
+
+

@@ -1,0 +1,101 @@
+
+.bar {
+    margin-top: 50px;
+    margin-left: 75%;
+}
+
+.w3-white {
+    color: #000;
+    background-color: #fff;
+}
+
+.w3-white:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.w3-button:active{
+    color: blue !important;;
+}
+
+.label{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+
+    /* 24 sp • H5 / Montserrat */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 132%;
+    /* identical to box height, or 32px */
+
+    display: flex;
+    align-items: center;
+}
+
+.counter {
+    margin: 0;
+    position: absolute;
+    width: 105px;
+    height: 48px;
+    left: 32px;
+    top: 70%;
+}
+.header-1{
+    width: 105px;
+    height: 32px;
+    left: 0px;
+    top: 16px;
+
+    /* 24 sp • H5 / Montserrat */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 132%;
+    /* identical to box height, or 32px */
+
+    display: flex;
+    align-items: center;
+
+    /* Dark */
+
+    color: #333333;
+}
+.header-3 {
+    width: 31px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+
+    /* Caption / Montserrat */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+
+    /* Components / Caption color (grey) */
+
+    color: #9C9C9C;
+
+}
+
+.counters {
+    margin: 0;
+    position: absolute;
+    width: 305px;
+    height: 48px;
+    left: 32px;
+    top: 80%;
+}
