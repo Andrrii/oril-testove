@@ -45,11 +45,11 @@ class Table extends React.Component {
     const {personList} = this.state
     const value = e.currentTarget.value
     if(value === "date") {
-      const res = personList.sort(this._byField("date"))
+      const res = personList.sort(this._byField("date",true))
       this.setState({personList: res})
     }
     else if(value === "name"){
-      const res = personList.sort(this._byField("name",true))
+      const res = personList.sort(this._byField("name"))
       this.setState({personList: res})
     }
     else if(value === "state"){
