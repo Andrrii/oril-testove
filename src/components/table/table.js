@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from "react"
 import OrilService from "../../services/oril-service"
 import {withRouter} from 'react-router-dom';
+import Spinner from "../spinner"
 import "./table.css"
 import './input.css'
 
@@ -87,7 +88,9 @@ class Table extends React.Component {
                 </tr>
             </thead>
             <tbody>
+              
             { 
+                personList.length ===0?<tr><td><Spinner /></td></tr>:
                 personList.filter(item => item.name.includes(search)).map((item)=>{ return (
             <tr className = "w3-hover-gray" key = {item.id} onClick = {() => {
               this.props.onPersonSelected(item.id)
