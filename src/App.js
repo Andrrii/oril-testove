@@ -1,7 +1,7 @@
 import React from "react"
 import { DetailsPage, ListPage } from "./components/pages";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   
