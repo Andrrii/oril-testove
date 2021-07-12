@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Andrrii/oril-testove/static/css/main.61e23562.chunk.css",
+    "main.js": "/Andrrii/oril-testove/static/js/main.6d8af01b.chunk.js",
+    "main.js.map": "/Andrrii/oril-testove/static/js/main.6d8af01b.chunk.js.map",
+    "runtime-main.js": "/Andrrii/oril-testove/static/js/runtime-main.bbee1253.js",
+    "runtime-main.js.map": "/Andrrii/oril-testove/static/js/runtime-main.bbee1253.js.map",
+    "static/js/2.f1757aae.chunk.js": "/Andrrii/oril-testove/static/js/2.f1757aae.chunk.js",
+    "static/js/2.f1757aae.chunk.js.map": "/Andrrii/oril-testove/static/js/2.f1757aae.chunk.js.map",
+    "index.html": "/Andrrii/oril-testove/index.html",
+    "static/css/main.61e23562.chunk.css.map": "/Andrrii/oril-testove/static/css/main.61e23562.chunk.css.map",
+    "static/js/2.f1757aae.chunk.js.LICENSE.txt": "/Andrrii/oril-testove/static/js/2.f1757aae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbee1253.js",
+    "static/js/2.f1757aae.chunk.js",
+    "static/css/main.61e23562.chunk.css",
+    "static/js/main.6d8af01b.chunk.js"
+  ]
+}
